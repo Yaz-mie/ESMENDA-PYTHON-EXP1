@@ -1,0 +1,92 @@
+# 🐍 Python Essentials – Programming Assignment 1
+
+**Author:** ESMENDA, Francine Jasmine Guelle T.  
+**Course:** ECE2112 – Advanced Computer Programming and Algorithms
+
+---
+
+## 📖 Overview
+
+This repository contains a single Jupyter Notebook that demonstrates core Python ideas using three short problems.  
+Concepts covered: **functions**, **string manipulation**, **dictionaries**, and **list unpacking**.
+
+**Notebook:** `ESMENDA_EXP1.ipynb`
+
+---
+
+## 🛠️ Requirements
+- Python 3.x  
+- Jupyter Notebook or JupyterLab  
+- No 3rd‑party libraries needed (only Python built‑ins)
+
+---
+
+## 🚀 How to Run
+1. Install Jupyter (Notebook or Lab).  
+2. Open **`ESMENDA_EXP1.ipynb`**.  
+3. Run cells from top to bottom to view the outputs under each code cell.
+
+---
+
+## 🧩 Problems & Solutions
+
+### 1) 🔡 Alphabet Soup (sorting characters)
+Sort the letters in a given word and return the alphabetically ordered string.
+
+```python
+def alphabet_soup(text):
+    return "".join(sorted(text))
+
+#Examples
+alphabet_soup("hello")   # 'ehllo'
+alphabet_soup("hacker")  # 'acehkr'
+```
+
+**Notes**
+- `sorted(text)` splits the string into characters and sorts them.
+- `"".join(...)` stitches the sorted characters back into a string.
+
+---
+
+### 2) 😀 Emotify (word → emoticon)
+Replace special words in a sentence with their corresponding emoticons.
+
+```python
+def emotify(sentence):
+    emoticons = {"smile": ":)", "grin": ":D", "sad": ":(", "mad": ">:("}
+    words = sentence.split()
+    converted = [emoticons.get(word, word) for word in words]
+    return " ".join(converted)
+
+#Examples
+emotify("Make me smile")  #'Make me :)'
+emotify("I am mad")       #'I am >:('
+emotify("She is grin")    #'She is :D'
+emotify("He is sad")      #'He is :('
+```
+
+**Notes**
+- Uses a **dictionary** to map keywords → emoticons.
+- Keeps all other words unchanged.
+
+---
+
+### 3) 📦 List Unpacking (first, middle, last)
+Extract the first, all middle elements, and the last element from a list using Python’s unpacking syntax.
+
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+
+first, *middle, last = numbers
+
+print("first:", first)     #1
+print("middle:", middle)   #[2, 3, 4, 5]
+print("last:", last)       #6
+```
+
+**Notes**
+- `first` receives the first element, `last` the final element.
+- `*middle` captures the remaining elements in between as a list.
+
+---
+
