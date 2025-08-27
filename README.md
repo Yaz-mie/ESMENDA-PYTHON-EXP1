@@ -45,6 +45,7 @@ print(alphabet_soup("hacker"))  # 'acehkr'
 **Notes**
 - `sorted(text)` splits the string into characters and sorts them.
 - `"".join(...)` stitches the sorted characters back into a string.
+- These print lines are there to test if the function works correctly.
 
 ---
 
@@ -68,6 +69,11 @@ emotify("He is sad")      #'He is :('
 **Notes**
 - Uses a **dictionary** to map keywords → emoticons.
 - Keeps all other words unchanged.
+- emoticons, dictionary mapping words (smile, grin, etc.) to their symbols.
+- sentence.split(), separates the sentence into words.
+- [emoticons.get(word, word) for word in words], replaces any matching word with its emoticon.
+- " ".join(result), puts the words back into a full sentence.
+- Print lines are there to show different cases where the dictionary replaces words with emoticons.
 
 ---
 
@@ -87,6 +93,7 @@ print("last:", last)       #6
 **Notes**
 - `first` receives the first element, `last` the final element.
 - `*middle` captures the remaining elements in between as a list.
+- The print lines are there to show how unpacking distributes values across variables.
 
 ---
 ### Version History
