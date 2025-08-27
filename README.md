@@ -44,6 +44,7 @@ print(alphabet_soup("hacker"))  # 'acehkr'
 
 **Notes**
 - `sorted(text)` splits the string into characters and sorts them.
+- `sorted(text)` splits the string into characters and sorts them.
 - `"".join(...)` stitches the sorted characters back into a string.
 - These print lines are there to test if the function works correctly.
 
@@ -57,7 +58,7 @@ def emotify(sentence):
     emoticons = {"smile": ":)", "grin": ":D", "sad": ":(", "mad": ">:("}
     words = sentence.split()
     converted = [emoticons.get(word, word) for word in words]
-    return " ".join(converted)
+    return " ".join(result)
 
 #Examples
 emotify("Make me smile")  #'Make me :)'
@@ -70,9 +71,9 @@ emotify("He is sad")      #'He is :('
 - Uses a **dictionary** to map keywords → emoticons.
 - Keeps all other words unchanged.
 - emoticons, dictionary mapping words (smile, grin, etc.) to their symbols.
-- sentence.split(), separates the sentence into words.
-- [emoticons.get(word, word) for word in words], replaces any matching word with its emoticon.
-- " ".join(result), puts the words back into a full sentence.
+- sentence.split() separates the sentence into words.
+- [emoticons.get(word, word) for word in words] replaces any matching word with its emoticon.
+- " ".join(result) puts the words back into a full sentence.
 - Print lines are there to show different cases where the dictionary replaces words with emoticons.
 
 ---
