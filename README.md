@@ -60,10 +60,10 @@ def emotify(sentence):
     return " ".join(result)
 
 #Examples
-emotify("Make me smile")  #'Make me :)'
-emotify("I am mad")       #'I am >:('
-emotify("She is grin")    #'She is :D'
-emotify("He is sad")      #'He is :('
+print(emotify("Make me smile"))  #'Make me :)'
+print(emotify("I am mad"))       #'I am >:('
+print(emotify("She is grin"))    #'She is :D'
+print(emotify("He is sad"))      #'He is :('
 ```
 
 **Notes**
