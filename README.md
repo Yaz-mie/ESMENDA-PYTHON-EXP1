@@ -44,7 +44,6 @@ print(alphabet_soup("hacker"))  # 'acehkr'
 
 **Notes**
 - `sorted(text)` splits the string into characters and sorts them.
-- `sorted(text)` splits the string into characters and sorts them.
 - `"".join(...)` stitches the sorted characters back into a string.
 - These print lines are there to test if the function works correctly.
 
