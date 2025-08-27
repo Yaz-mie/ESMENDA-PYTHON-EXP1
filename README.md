@@ -38,8 +38,8 @@ def alphabet_soup(text):
     return "".join(sorted(text))
 
 #Examples
-alphabet_soup("hello")   # 'ehllo'
-alphabet_soup("hacker")  # 'acehkr'
+print(alphabet_soup("hello"))   # 'ehllo'
+print(alphabet_soup("hacker"))  # 'acehkr'
 ```
 
 **Notes**
