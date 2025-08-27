@@ -15,7 +15,7 @@ Concepts covered: **functions**, **string manipulation**, **dictionaries**, and 
 ---
 
 ## 🛠️ Requirements
-- Python 3.x  
+- Python 3 
 - Jupyter Notebook or JupyterLab  
 - No 3rd‑party libraries needed (only Python built‑ins)
 
@@ -89,4 +89,15 @@ print("last:", last)       #6
 - `*middle` captures the remaining elements in between as a list.
 
 ---
+### Version History
+v1.0 – Initial notebook with Alphabet Soup Problem
 
+v1.1 – Added Emotify Problem function + test cases
+
+v1.2 – Added List Unpacking example and explanations
+
+v1.3 – Improved comments and code formatting for readability
+
+v1.4 – Added detailed README file with problem explanations
+
+---
