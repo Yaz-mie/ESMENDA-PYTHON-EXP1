@@ -89,8 +89,4 @@ v1.1 – Added Emotify Problem function + test cases
 
 v1.2 – Added List Unpacking example and explanations
 
-v1.3 – Improved comments and code formatting for readability
-
-v1.4 – Added detailed README file with problem explanations
-
 ---
