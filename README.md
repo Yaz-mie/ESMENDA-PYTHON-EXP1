@@ -1,11 +1,11 @@
-# 🐍 Python Essentials – Programming Assignment 1
+# Python Essentials – Programming Assignment 1
 
 **Author:** ESMENDA, Francine Jasmine Guelle T.  
 **Course:** ECE2112 – Advanced Computer Programming and Algorithms
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains a single Jupyter Notebook that demonstrates core Python ideas using three short problems.  
 Concepts covered: **functions**, **string manipulation**, **dictionaries**, and **list unpacking**.
@@ -14,23 +14,9 @@ Concepts covered: **functions**, **string manipulation**, **dictionaries**, and 
 
 ---
 
-## 🛠️ Requirements
-- Python 3 
-- Jupyter Notebook or JupyterLab  
-- No 3rd‑party libraries needed (only Python built‑ins)
+## Problems & Solutions
 
----
-
-## 🚀 How to Run
-1. Install Jupyter (Notebook or Lab).  
-2. Open **`ESMENDA_EXP1.ipynb`**.  
-3. Run cells from top to bottom to view the outputs under each code cell.
-
----
-
-## 🧩 Problems & Solutions
-
-### 1) 🔡 Alphabet Soup (sorting characters)
+### 1) Alphabet Soup (sorting characters)
 Sort the letters in a given word and return the alphabetically ordered string.
 
 ```python
@@ -49,7 +35,7 @@ print(alphabet_soup("hacker"))  # 'acehkr'
 
 ---
 
-### 2) 😀 Emotify (word → emoticon)
+### 2) Emotify (word → emoticon)
 Replace special words in a sentence with their corresponding emoticons.
 
 ```python
@@ -77,7 +63,7 @@ print(emotify("He is sad"))      #'He is :('
 
 ---
 
-### 3) 📦 List Unpacking (first, middle, last)
+### 3) List Unpacking (first, middle, last)
 Extract the first, all middle elements, and the last element from a list using Python’s unpacking syntax.
 
 ```python
