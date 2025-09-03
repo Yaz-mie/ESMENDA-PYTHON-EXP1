@@ -1,4 +1,4 @@
-# Python Essentials – Programming Assignment 1
+# Python – Programming Assignment 1
 
 **Author:** ESMENDA, Francine Jasmine Guelle T.  
 **Course:** ECE2112 – Advanced Computer Programming and Algorithms
